@@ -1,30 +1,35 @@
-# manzano-exercicio-07
+# 📘 Algoritmos e Estruturas de Dados — Livro Manzano (2000)
 
-Este repositório contém a resolução dos exercícios de lógica de programação do Capítulo 7 (letras A a M) da apostila do Prof. José Augusto N. G. Manzano, implementados em Java.
+> Solução dos exercícios práticos propostos no livro **"Estudo Dirigido: ALGORITMOS"** (*José Augusto N. G. Manzano*, Editora Érica, 2000).
 
-## 📌 Conteúdo
+---
 
-* Exercícios resolvidos das letras **A até M**.
-* Foco na prática e fixação de algoritmos e estruturas de controle em Java.
-* Organização estruturada do código para estudo e consulta.
+## 📌 Exercícios das Páginas 25 e 26 (Lista 01: Item `a` ao `m`)
 
-## 📂 Estrutura do Projeto
+Esta seção do repositório é dedicada à resolução dos exercícios de **Estruturas Sequenciais** em Portugol / Lógica de Programação, abordando entrada de dados (`leia`), processamento aritmético e saída (`escreva`).
 
-Os códigos-fonte de todos os exercícios se encontram dentro da pasta `src`:
+### 📂 Tabela de Exercícios e Descrições
 
-```text
-manzano-exercicio-07/
-└── src/
-    ├── L01A.java
-    ├── L01B.java
-    ├── L01C.java
-    ├── L01D.java
-    ├── L01E.java
-    ├── L01F.java
-    ├── L01G.java
-    ├── L01H.java
-    ├── L01I.java
-    ├── L01J.java
-    ├── L01K.java
-    ├── L01L.java
-    └── L01M.java
+| Exercício | Título / Objetivo | Descrição Resumida |
+| :---: | :--- | :--- |
+| **`a`** | **Celsius para Fahrenheit** | Conversão de temperatura utilizando a fórmula $F = \frac{9 \cdot C + 160}{5}$. |
+| **`b`** | **Fahrenheit para Celsius** | Conversão de temperatura utilizando a fórmula $C = (F - 32) \cdot \frac{5}{9}$. |
+| **`c`** | **Volume de Lata Cilíndrica** | Cálculo do volume tridimensional dado por $\text{Volume} = \pi \cdot r^2 \cdot h$. |
+| **`d`** | **Consumo de Combustível** | Cálculo da distância percorrida e consumo de combustível em uma viagem (autonomia: 12 km/L). |
+| **`e`** | **Cálculo de Prestação em Atraso** | Cálculo do valor final com juros acumulados por dias de atraso. |
+| **`f`** | **Troca de Valores (Swap)** | Algoritmo de permutação entre os conteúdos de duas variáveis sem perda de dados. |
+| **`g`** | **Propriedade Distributiva** | Aplicação de combinações de adição e multiplicação com quatro valores distintos. |
+| **`h`** | **Volume de Caixa Retangular** | Cálculo do volume geométrico pela fórmula $\text{Volume} = \text{Comprimento} \times \text{Largura} \times \text{Altura}$. |
+| **`i`** | **Quadrado da Diferença** | Obtenção do resultado da expressão $(A - B)^2$. |
+| **`j`** | **Conversão: Dólar $\to$ Real** | Conversão de um valor em dólares para reais com base na cotação fornecida. |
+| **`k`** | **Conversão: Real $\to$ Dólar** | Conversão de um valor em reais para dólares com base na cotação fornecida. |
+| **`l`** | **Soma dos Quadrados** | Obtenção do resultado da expressão $A^2 + B^2 + C^2$. |
+| **`m`** | **Quadrado da Soma** | Obtenção do resultado da expressão $(A + B + C)^2$. |
+
+---
+
+## 🧠 Conceitos Aplicados
+
+- **Tipos de Dados Primitivos:** `inteiro` e `real`.
+- **Comandos de E/S:** Entrada manual de dados e escrita formatada no console.
+- **Precedência Operacional:** Respeito aos parênteses e ordem dos operadores aritméticos ($*$, $/$, $+$, $-$).
